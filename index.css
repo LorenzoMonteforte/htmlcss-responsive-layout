@@ -1,0 +1,27 @@
+/* General */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Header */
+header{
+    background-color: rgba(0,132,253,255);
+    display: flex;
+}
+
+header > div{
+    width: 50%;
+    padding: 1em 1.5em;
+}
+
+header > div:last-child{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+header > div:last-child > i{
+    font-size: 2em;
+    color: white;
+}
