@@ -112,3 +112,33 @@ header > div:last-child > i{
 #section2{
     background-color: rgba(151,146,228,255);
 }
+/* Section 3 Testimonials */
+#testimonials h2{
+    color: rgba(151,146,228,255);
+}
+.cardsTestimonials{
+    margin-top: 1.5em;
+    border-radius: 2em;
+    padding: 1.5em;
+    background-color: rgba(151,146,228,255);
+}
+
+.photoContainer{
+    width: 80%;
+    aspect-ratio: 1 / 1;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+}
+
+#testimonial1{
+    background-image: url("img/testimonial1.jpg");
+}
+
+#testimonial2{
+    background-image: url("img/testimonial2.jpg");
+}
+
+#testimonial3{
+    background-image: url("img/testimonial3.jpg");
+}
