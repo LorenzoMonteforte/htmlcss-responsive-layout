@@ -26,6 +26,18 @@ header > div:last-child > i{
     color: white;
 }
 /* Main */
+.padSec{
+    padding: 3em 1.5em;
+}
+
+.marTop1_5em{
+    margin-top: 1.5em;
+}
+
+.texAliCen{
+    text-align: center;
+}
+/* Section 1 */
 #section1{
     padding: 3em 1.5em;
 }
@@ -40,14 +52,6 @@ header > div:last-child > i{
 #section1 > div:first-child{
     margin-top: 0;
     padding-bottom: 0;
-}
-
-.texAliCen{
-    text-align: center;
-}
-
-.marTop1_5em{
-    margin-top: 1.5em;
 }
 
 #btn{
@@ -79,4 +83,32 @@ header > div:last-child > i{
 
 .colBlue{
     color: rgba(9,136,253,255);
+}
+/* Section 2 */
+#section2 > img{
+    width: 100%;
+}
+
+.colWhite{
+    color: white;
+}
+
+#section2 > div{
+    border-radius: 2em;
+    padding: 1.5em;
+    background-color: white;
+}
+
+#planning2{
+    width: 100%;
+}
+
+#btn2{
+    background-color: rgba(151,146,228,255);
+    padding: 0.5em 0.8em;
+    border-radius: 50%;
+}
+
+#section2{
+    background-color: rgba(151,146,228,255);
 }
