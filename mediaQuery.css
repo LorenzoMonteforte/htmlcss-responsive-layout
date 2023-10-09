@@ -72,6 +72,7 @@
 }
 
 @media only screen and (min-width: 992px){
+    header,
     #section1,
     #section2,
     #testimonials,
@@ -90,6 +91,14 @@
     #containerSection2{
         display: flex;
         justify-content: space-between;
+    }
+
+    #hamburger{
+        display: none;
+    }
+
+    header ul{
+        display: flex;
     }
 
     #containerSection2 > div{
