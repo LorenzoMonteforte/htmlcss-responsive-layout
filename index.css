@@ -165,3 +165,28 @@ header > div:last-child > i{
 #benefits{
     background-color: rgba(151,146,228,255);
 }
+/* Section 5 About Us */
+#photoContainerAbout{
+    width: 50%;
+    aspect-ratio: 1 / 1;
+    position: relative;
+}
+
+#photoContainerAbout > div{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    background-image: url("img/about.jpg");
+    background-size: cover;
+}
+
+#photoContainerAbout > i{
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 4em;
+}
+
+.btn3 > i{
+    margin-right: 0.5em;
+}
