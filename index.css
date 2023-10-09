@@ -37,6 +37,10 @@ header > div:last-child > i{
 .texAliCen{
     text-align: center;
 }
+
+.colViolet{
+    color: rgba(151,146,228,255);
+}
 /* Section 1 */
 #section1{
     padding: 3em 1.5em;
@@ -113,9 +117,6 @@ header > div:last-child > i{
     background-color: rgba(151,146,228,255);
 }
 /* Section 3 Testimonials */
-#testimonials h2{
-    color: rgba(151,146,228,255);
-}
 .cardsTestimonials{
     margin-top: 1.5em;
     border-radius: 2em;
@@ -141,4 +142,26 @@ header > div:last-child > i{
 
 #testimonial3{
     background-image: url("img/testimonial3.jpg");
+}
+/* Section 4 Benefits */
+#benefits > div{
+    margin-top: 1.5em;
+    border-radius: 1em;
+    padding: 1.5em;
+    background-color: white;
+}
+
+.fonSiz3em{
+    font-size: 3em;
+}
+
+.btn3{
+    color: white;
+    background-color: rgba(151,146,228,255);
+    padding: 0.5em 2em;
+    border-radius: 1em;
+}
+
+#benefits{
+    background-color: rgba(151,146,228,255);
 }
