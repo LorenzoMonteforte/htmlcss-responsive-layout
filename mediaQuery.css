@@ -64,6 +64,11 @@
     #photoContainerAbout > i {
         font-size: 3em;
     }
+    /* Footer */
+    #footerContainer > div.padSec{
+        padding-left: 5em;
+        padding-right: 5em;
+    }
 }
 
 @media only screen and (min-width: 992px){
@@ -71,7 +76,9 @@
     #section2,
     #testimonials,
     #benefits,
-    #aboutUs{
+    #aboutUs,
+    #footerContainer > div:first-child,
+    #footerContainer > div:last-child{
         display: flex;
         justify-content: center;
     }
