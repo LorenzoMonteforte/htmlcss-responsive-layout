@@ -86,6 +86,7 @@
 
     .container{
         width: 70%;
+        max-width: 1300px;
     }
 
     #containerSection2{
