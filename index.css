@@ -9,6 +9,14 @@
 ul{
     list-style-type: none;
 }
+
+.texAliLeft{
+    text-align: left;
+}
+
+.jusConFlexStart{
+    justify-content: flex-start;
+}
 /* Header */
 header{
     background-color: rgba(0,132,253,255);
@@ -94,7 +102,7 @@ header li:last-child{
 }
 
 #containerSection1 img{
-    width: 60%;
+    width: 100%;
 }
 
 .flex{

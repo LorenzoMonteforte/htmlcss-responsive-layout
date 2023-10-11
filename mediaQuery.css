@@ -18,6 +18,10 @@
     #containerSection1 > div:nth-child(2){
         margin-top: 0;
     }
+
+    #containerSection1 img{
+        width: 50%;
+    }
     /* Section 3 Testimonials */
     .cardsTestimonials{
         display: flex;
@@ -72,6 +76,10 @@
 }
 
 @media only screen and (min-width: 992px){
+    body{
+        font-size: 0.8em;
+    }
+
     header,
     #section1,
     #section2,
@@ -113,5 +121,24 @@
 
     #benefitsContainer > div{
         width: 30%;
+    }
+
+    #column1{
+        display: flex;
+    }
+
+    #column1 > div:first-child{
+        width: 60%;
+    }
+
+    #column1 > div:last-child{
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        width: 40%;
+    }
+
+    #containerSection1 img{
+        width: 100%;
     }
 }
